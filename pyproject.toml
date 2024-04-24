@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "initialize-django-boilerplate"
+version = "0.1.0"
+description = "django settings boilerplate"
+authors = ["이주환 <118493627+LeeJuHwan@users.noreply.github.com>"]
+license = "MIT Lisence"
+readme = "README.md"
+packages = [{include = "initialize_django_boilerplate"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+djangorestframework = "3.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
