@@ -1,0 +1,6 @@
+ALLOWED_HOSTS=localhost,127.0.0.1
+SECRET_KEY=django-insecure-#sxtg_wfrqousw31lg8c&@lku1wf#)0@#3!9@$jg^0ulz=s1gp
+
+SERVER_ENVIRONMENT=dev
+DJANGO_READ_DOT_ENV_FILE=False
+DJANGO_DEBUG=True
