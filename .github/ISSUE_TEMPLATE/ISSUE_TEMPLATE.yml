@@ -1,4 +1,4 @@
-name: 💡 Improvements
+?name: 💡 Improvements
 description: Create a new ticket for a new feature request
 title: "🎫 [Tags] - <title>"
 
@@ -14,7 +14,7 @@ body:
         - Features
         - Idea
   - type: textarea
-    id: improvements summary
+    id: improvements-summary
     attributes:
       label: Details about changes
       description: 추가 기능 또는 기능 수정에 대한 요구사항을 작성 해주세요.
@@ -25,7 +25,7 @@ body:
     attributes:
       label: Tasks
       options:
-        - label: Task
-        - label: Task
-        - lable: Task
-        - lable: Task
+        - label: Task1
+        - label: Task2
+        - label: Task3
+        - label: Task4
