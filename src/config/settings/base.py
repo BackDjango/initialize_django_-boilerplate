@@ -111,6 +111,8 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+APPEND_SLASH = False
+
 from config.auth import *  # noqa
 from config.jwt import * # noqa
 SIMPLE_JWT["SIGNING_KEY"] = env.str("SECRET_KEY")  # noqa
