@@ -8,11 +8,11 @@ body:
     attributes:
       label: Which area of this project could be most improved?
       options:
-        - Documentation
-        - Pull request review
-        - Bug fix
-        - Features
-        - Idea
+        - 📄 Documentation
+        - 👬 Pull request review
+        - ❗Bug fix
+        - 🔗 Features
+        - 💡Idea
   - type: textarea
     id: improvements-summary
     attributes:
@@ -23,9 +23,8 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Tasks
+      label: Required
       options:
-        - label: Task1
-        - label: Task2
-        - label: Task3
-        - label: Task4
+        - label: Assigee 설정
+        - label: Issue label 설정
+        - label: 개선사항 내용 작성
