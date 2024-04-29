@@ -28,9 +28,13 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
+    "rest_framework",
+    "rest_framework.authtoken",
+    "dj_rest_auth",
 ]
 
 LOCAL_APPS = [
+    "accounts",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -105,3 +109,7 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+from config.auth import *  # noqa
+from config.jwt import * # noqa
+SIMPLE_JWT["SIGNING_KEY"] = env.str("SECRET_KEY")  # noqa
