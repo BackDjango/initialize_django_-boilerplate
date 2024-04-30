@@ -7,7 +7,6 @@ BASE_DIR = environ.Path(__file__) - 4
 
 # NOTE: Dockerizing use env_file field into yaml
 READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=True)
-SERVER_ENVIRONMENT = env.str("SERVER_ENVIRONMENT", default="dev")
 DATABASE_USE = env.bool("DATABASE_USE", default=False)
 
 if READ_DOT_ENV_FILE:
